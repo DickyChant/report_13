@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2017.11.15)  29 DEC 2017 18:20
+This is XeTeX, Version 3.1415926-2.3-0.9997.5 (MiKTeX 2.9) (preloaded format=xelatex 2017.11.15)  29 DEC 2017 22:23
 entering extended mode
 **c:/Users/Dicky/Desktop/report_13/report_13
 (c:/Users/Dicky/Desktop/report_13/report_13.tex
@@ -713,6 +713,18 @@ Package: fp-eval 1995/04/03
 
 LaTeX Warning: Label `tab:addlabel' multiply defined.
 
+
+LaTeX Warning: Label `tab:addlabel' multiply defined.
+
+
+LaTeX Warning: Label `tab:addlabel' multiply defined.
+
+
+LaTeX Warning: Label `fig:digit' multiply defined.
+
+
+LaTeX Warning: Label `tab:addlabel' multiply defined.
+
 )
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
@@ -983,20 +995,13 @@ Requested font "SimHei/ICU:script=latn;language=DFLT;mapping=tex-text;" at 10.5
 4pt
  -> C:/WINDOWS/Fonts/simhei.ttf
 
-Overfull \hbox (8.98999pt too wide) in paragraph at lines 45--51
+Overfull \hbox (8.98999pt too wide) in paragraph at lines 47--53
  [][][] 
  []
 
 [1
 
 ]
-c:/Users/Dicky/Desktop/report_13/report_13.tex:53: Undefined control sequence
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 Requested font "[lmromanslant10-regular]:mapping=tex-text" at 10.54pt
  -> C:/CTEX/MiKTeX/fonts/opentype/public/lm/lmromanslant10-regular.otf
 .................................................
@@ -1008,10 +1013,20 @@ Requested font "[lmromanslant10-regular]:mapping=tex-text" at 10.54pt
 . This font family consists of the following shapes:
 .................................................
 
-LaTeX Font Warning: Font shape `EU1/SimSun(0)/m/sl' undefined
-(Font)              using `EU1/SimSun(0)/m/n' instead on input line 68.
 
-[2] (c:\Users\Dicky\Desktop\report_13\report_13.aux)
+LaTeX Font Warning: Font shape `EU1/SimSun(0)/m/sl' undefined
+(Font)              using `EU1/SimSun(0)/m/n' instead on input line 78.
+
+[2]
+File: 1.eps Graphic file (type eps)
+ <1.eps> [3]
+Overfull \hbox (74.42224pt too wide) in paragraph at lines 111--123
+ [][][] 
+ []
+
+[4]
+File: 2.eps Graphic file (type eps)
+ <2.eps> [5] [6] [7] [8] (c:\Users\Dicky\Desktop\report_13\report_13.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.41pt have occurred.
@@ -1024,12 +1039,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 16642 strings out of 430478
- 334784 string characters out of 3191501
- 358022 words of memory out of 3000000
- 19499 multiletter control sequences out of 15000+200000
+ 16679 strings out of 430478
+ 335417 string characters out of 3191501
+ 360030 words of memory out of 3000000
+ 19533 multiletter control sequences out of 15000+200000
  9897 words of font info for 71 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 57i,11n,36p,875b,327s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 57i,11n,36p,875b,333s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on report_13.pdf (2 pages).
+Output written on report_13.pdf (8 pages).
