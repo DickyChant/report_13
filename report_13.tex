@@ -171,10 +171,10 @@ $$
 \end{table}%
 \subsection{题（2）}
 \subsubsection{问（1）}
-根据公式$Q=\frac{U_C}{U}$，故可调节$f$使电路谐振，只要此时$f_0$使得$\frac{U_C}{U}$最大（共振），据此判断谐振。计算得$Q$值后，还可以进一步利用公式$Q=\frac{1}{2\pi f_0CR_r}$得$R_r$。由$f_0=\frac{1}{2\pi\sqrt{LC}}$可得$L$。
+根据公式$Q=\frac{U_C}{U}$，故可调节$f$使电路谐振。只要此时$f_0$使得$\frac{U_C}{U}$最大时，理论计算有$f=\frac{1}{2\pi\sqrt{LC}}\sqrt{1-\frac{CR_r^2}{L}}$，考虑此时$C$数量级极小，可近似认为此时$f\approx\frac{1}{2\pi\sqrt{LC}}=f_0$,据此判断谐振。计算得$Q$值后，还可以进一步利用公式$Q=\frac{1}{2\pi f_0CR_r}$得$R_r$。由$f_0=\frac{1}{2\pi\sqrt{LC}}$可得$L$。
 \subsubsection{问（2）}
 \paragraph{1}连接电路；
-\paragraph{2}调节$f$并保持$U$不变，当$U_C$出现极大值（电路达谐振）时，记录$f_0,C,U,U_C$；
+\paragraph{2}调节$f$并保持$U$不变，当$U_C$出现极大值时，记录$f_0,C,U,U_C$；
 \paragraph{3}根据（1）中列出公式完成计算。
 \subsubsection{问（3）}
 将题中所给数据代入，得：
@@ -186,6 +186,7 @@ $$ \left\{
   \end{aligned}
   \right.
   $$
+  将数据代回，得$\frac{CR_r^2}{L}\sim10^{-7}$，故这个近似是可行的。
   \section{分析与讨论}
   \subsection{各曲线特征及理解}
   \subsubsection{相频特性曲线}
